@@ -1,0 +1,645 @@
+.color808 {
+	color: #808285;
+}
+
+body {
+
+	font-family: 'Open Sans', Arial, sans-serif;
+	color: #333;
+
+}
+
+a {
+	color: #71AE87;
+}
+
+footer a {
+	color: #3c9685;
+}
+
+button {
+	font-family: 'Open Sans', Arial, sans-serif; 
+}
+
+#share, #e-sign {
+	background-color: #e0e0e0;
+	border: 1px solid #71AE87;
+	color: #71AE87;
+}
+
+.largeProceedButton, .smallProceedButton, a.largeProceedButton, a.smallProceedButton, .largeActiveButton {
+	background: #64AD7D;
+	font-size: 16px;
+	text-transform: uppercase;
+	color: white;
+	padding: 15px 30px;
+	border: none;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 0.75px #cecece;
+}
+
+.largeProceedButton:hover,
+.smallProceedButton:hover,
+a.largeProceedButton:hover,
+a.smallProceedButton:hover,
+.largeActiveButton:hover, 
+.largeProceedButton:active, 
+.smallProceedButton:active, 
+a.largeProceedButton:active, 
+a.smallProceedButton:active, 
+.largeActiveButton:active {
+	background: #5A9669;
+}
+
+.largeInactiveButton {
+
+    background: #D1D3D4;
+    font-size: 16px;
+	color: #808285;
+	border: none;
+	text-transform: uppercase;
+	padding: 15px 30px;
+	border-radius: 4px;
+	box-shadow: 1px 1px 1px 0.75px #cecece;
+	margin-left: 15px;
+}
+
+.SignInOut {
+    width: 50%;
+    height: 75px;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.SignInOutRow {
+	display: flex;
+	width: 100%;
+	height: 75px;
+	align-items: center;
+	justify-content: space-between;
+	
+}
+
+.bannerSupportNumber {
+
+	display: table-cell;
+	vertical-align: middle;
+	border-right: 1px solid #dedede;
+
+}
+
+.helpTop {
+	display: table-cell;
+	vertical-align: middle;
+	border-right: 1px solid #dedede;
+
+}
+
+.select_country a::before {
+	content: "";
+	width: 28px;
+	height: 19px;
+	background: url('https://www.lawdepot.com/images/sprites/LdslateSprite.png?v=1') -258px -368px no-repeat;
+	background-size: 430px 489px;
+	position: absolute;
+	top: 29px;
+	margin-left: -15px;
+}
+
+#logo_search {
+    width: 235px;
+    height: 45px;
+    position: relative;
+    left: 40px;
+    top: 15px;
+    margin-bottom: 30px;
+    float: left;
+    background: url('https://www.lawdepot.com/images/sprites/LdslateSprite.png?v=1') -24px -24px no-repeat;
+    background-size: auto;
+    background-size: 430px 489px;
+}
+
+#logo_link {
+	height: 100%;
+}
+
+#logo_link a {
+	display: block;
+	height: 100%;
+}
+
+
+
+.LDTopMenu {
+
+	background-color: #393c47;
+
+}
+#navbarSupportedContent {
+	font-size: 20px;
+}
+
+#navbarSupportedContent ul li a {
+	margin: 0 14px;
+}
+
+
+
+
+nav.LDTopMenu > div > ul.navbar-nav > li > a.nav-link {
+
+	color: #fff;
+}
+
+nav.LDTopMenu > div > ul.navbar-nav > li > a.nav-link:hover {
+	color: #fff;
+	text-decoration-line: underline;
+
+}
+
+footer {
+	background-color: #f2f2f2;
+}
+
+.footerSlate_simple {
+	padding: 40px 0;
+}
+
+.bottomFootContain {
+	background-color: #e6e7e8;
+}
+
+
+.footerv2_disclaimer {
+
+	font-size: 13px;
+	padding: 30px 0;
+	
+}
+
+.footerSlate_simple {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footerv2_logos  {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.footerv2_logos > div {
+
+	box-sizing: content-box;
+	width: 100px;
+	padding-left: 40px;
+
+}
+
+.footerv2_logos > div:nth-of-type(3) {
+
+	width: 200px;
+	
+}
+
+.footerv2_phone {
+
+	font-size: 18px;
+	color: #808285;
+	line-height: 25px;
+
+
+}
+
+.callOutBanner {
+
+	background-color: #555966;
+	display: block;
+
+}
+
+.callOutBanner > h5, .callOutBanner > button {
+	width: 100%;
+}
+
+
+/*  /////////  Tabs  /////////  */
+
+.tabs {
+
+	/*background-color: #fff;*/
+
+}
+
+.tabLinks {
+
+	color: #fff; 
+	border: 1px solid #999 !important; 
+	border-bottom: 0 !important;
+	padding-right: 3rem; 
+	background-color: #c1c1c1;
+	display: inline-block;
+	padding-left: 39px;
+
+}
+
+.tabItem {
+	z-index: 1;
+}
+
+.tabItem:nth-of-type(2) {
+	margin-left: 224px;
+}
+
+
+.tabIconImage {
+	width: 30px;
+	position: absolute;
+	top: 5px;
+	left: 5px;
+}
+
+
+
+
+.doc-preview {
+	max-height: 600px; 
+	border: 1px solid #999; 
+	overflow-y: scroll;
+	background-color: #fff;
+}
+
+
+a.docNav {
+	font-size: 18px;
+	color: #333;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+
+.docNavContainer {
+
+	height: auto;
+
+}
+
+.docNavContainer button {
+
+	border: 1px solid #dedede;
+	margin: 0.25rem 0;
+	padding: 1.25rem;
+
+}
+
+.borderNav {
+	border-right: 1px solid #dedede;
+	/*background-color: pink;*/
+	width: 100%;
+	height: 75px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.borderNav:nth-of-type(2), .borderNav:nth-of-type(3) {
+
+	width: 60%;
+
+}
+
+
+/* /////////// Dialog Box /////////// */
+
+#editDialogContainer {
+
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(0,0,0,0.3);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+#editDialog, #exitEditDialog {
+	width: 460px;
+	height: 408px;
+	background-color: #fff;
+	box-shadow: 0 1px 3px 1px rgba(211,211,211,0.7);
+
+}
+
+#exitEditDialog {
+	height: 220px;
+}
+
+#editDialog > h1, #exitEditDialog >h1 {
+	font-size: 24px;
+	color: #333333;
+	font-weight: 500;
+	display: block;
+	padding: 10px 30px;
+	background: #F2F2F2;
+	border-radius: 0;
+	min-height: 57px;
+	border: none;
+	box-sizing: border-box;
+}
+
+#editDialog > p, #exitEditDialog > p {
+	padding: 10px 30px;
+}
+
+.editIconContainer {
+	position: absolute;
+	top: 0;
+	left: 110px;
+	width: 200px;
+	height: 220px;
+	border: 1px solid #ccc;
+	margin: 1rem; 
+	text-align: center; 
+	padding: 1rem;
+	opacity: 0;
+	background-color: #fff;
+}
+
+
+.editIconContainer:nth-of-type(2) {
+
+	opacity: 0;
+	background-color: #fff;
+	
+}
+
+.editIconText {
+	width: 100%; 
+	text-align: center; 
+	padding: 1rem;
+}
+
+@keyframes editIconAnimateRight {
+
+	0% {left: 0px; opacity: 0%;}
+	50% {left: 0px; opacity: 100%;}
+	100% {left: 230px; opacity: 100%;}
+
+}
+
+@keyframes editIconAnimateLeft {
+
+	0% {left: 0px; opacity: 0%;}
+	50% {left: 0px; opacity: 100%;}
+	100% {left: 0px; opacity: 100%;}
+
+}
+
+.editIconAnimationRight {
+	animation: 1s editIconAnimateRight 0.5s forwards;
+}
+
+.editIconAnimationLeft {
+	animation: 1s editIconAnimateLeft 0.5s forwards;
+}
+
+.ui-icon {
+	position: absolute;
+	top: 14px;
+	right: 14px;
+	width: 25px;
+	height: 25px;
+	background-image: url('https://www.lawdepot.com/common/images/LDslate-dialogX-2x.png?v=1');
+	background-size: 25px;
+	background-position: center;
+	z-index: 99;
+	cursor: pointer;
+}
+
+
+
+
+
+.ui-icon-tab {
+	position: absolute;
+	top: 9px;
+	right: 9px;
+	width: 14px;
+	height: 14px;
+	background-image: url('https://www.lawdepot.com/common/images/LDslate-dialogX-2x.png?v=1');
+	background-size: 20px;
+	background-position: center;
+	z-index: 99;
+	cursor: pointer;
+	margin: 0 0 1rem 1rem;
+}
+
+.dropdown-toggle::after {
+	content: "";
+	position: absolute;
+	border: solid #88ABAC;
+	border-width: 0 1px 1px 0;
+	padding: 4px;
+	top: 28px;
+	right: 35px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+.dropdown-toggle-2::after {
+	content: "";
+	position: absolute;
+	border: solid #333;
+	border-width: 0 1px 1px 0;
+	padding: 4px;
+	top: 21px;
+	right: 24px;
+	transform: rotate(45deg);
+	-webkit-transform: rotate(45deg);
+}
+
+#e-sign-menu {
+
+	right: 0;
+	left: initial;
+
+}
+
+#wysiwyg {
+	border-left: 1px solid #ccc;
+}
+
+.progress-bar {
+	background-color: #64ad7d;
+}
+
+.btn-link {
+
+	color: #64ad7d;
+
+}
+
+.mobileCheckList {
+
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 40px;
+	z-index: 1;
+	box-shadow: 5px 5px 5px rgba(0,0,0,0.3);
+	background-color: #fff;
+	border: 2px solid #999;
+	border-left: 0;
+	border-radius: 0px 4px 4px 0px;
+	padding: 1rem;
+
+}
+
+.openCloseCheckListIcons {
+
+	display: block;
+	text-align: right;
+
+}
+
+@keyframes mobileOpen {
+
+	0% {width: 40px;}
+	100% {width: 70%;}
+
+}
+
+.mobileCheckWidth {
+	animation: mobileOpen 0.4s forwards;
+}
+
+@keyframes mobileClose {
+
+	0% {width: 70%;}
+	100% {width: 40px;}
+
+}
+.mobileCloseWidth {
+	animation: mobileClose 0.4s forwards;
+}
+
+
+
+/*.closeMe {
+	animation-name: mobileClose;
+	animation-duration: 1s;
+}*/
+
+
+@media (min-width: 768px) { 
+
+
+	.callOutBanner {
+
+		background-color: #555966;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.callOutBanner > h5 {
+
+		width: 60%;
+
+	}
+
+	.callOutBanner > button {
+
+		width: 40%;
+
+	}
+
+
+	.docNavContainer {
+
+		height: 70px;
+		
+	}
+
+
+	.docNavContainer button {
+
+
+		border: 0;
+		border-right: 1px solid #fff;
+		margin: 0;
+		padding: 1.25rem;
+
+	}
+
+
+/*	.docNavContainer button:nth-of-type(1) {
+
+		border-left: 1px solid #fff;
+
+	}*/
+
+}
+
+@media (min-width: 992px) { 
+
+
+	.callOutBanner {
+
+		background-color: #555966;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+
+	}
+
+	.callOutBanner > h5 {
+
+		width: auto;
+
+	}
+
+	.callOutBanner > button {
+
+		width: auto;
+
+	}
+
+
+	.docNavContainer button {
+
+		border: 0;
+		border-right: 1px solid #fff;
+		margin: 0;
+
+	}
+
+
+
+	.mobileCheckList {
+
+		position: relative;
+		top: 0;
+		width: 100%;
+		box-shadow: 5px 5px 5px rgba(0,0,0,0);
+		border: 0;
+	}
+
+
+	.openCloseCheckListIcons {
+
+		display: none;
+
+	}
+
+
+}
+
+
+
